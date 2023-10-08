@@ -3,7 +3,7 @@ name: Apply Label to New Issue based on its Title
 on:
   issue_comment:
     types:
-      - opened
+      - created
 
 jobs:
   apply-label-to-new-issue-based-on-title:
