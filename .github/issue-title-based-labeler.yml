@@ -1,0 +1,6 @@
+version: v*
+
+labels:
+  - label: "rejected"
+    matcher:
+      comment: "^Rejected.*"
